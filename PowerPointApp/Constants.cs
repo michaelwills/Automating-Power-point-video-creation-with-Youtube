@@ -10,7 +10,7 @@ namespace PowerPointApp
 {
     public static class Constants
     {
-        public static string key = "AIzaSyBvsp2gqJH-gzVZeOIuRoZuGOr-f4hyVeU";
+        public static string key = "PUT YOUR KEY HERE";
         public static string urlTopLevelCommentPrefix = "https://www.googleapis.com/youtube/v3/commentThreads?videoId=";
         public static string urlTopLevelCommentsPostfix = $"&part=snippet&order=time&maxResults=100&key={key}";
         public static string urlTopLevelCommentsPostfixWithToken = string.Empty;
